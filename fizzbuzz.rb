@@ -1,11 +1,12 @@
 
-def fizz_buzz(int)
+def fizz_buzz
   int = gets.chomp
   if int % 3 ==0 && int % 5 ==0
-     "Fizz Buzz"
+     puts "Fizz Buzz"
   else if int % 3 == 0
-     "Fizz"
+     puts "Fizz"
   else int % 5 ==0
-     "Buzz"
+     puts "Buzz"
 end 
 end 
+fizz_buzz
