@@ -1,12 +1,12 @@
 
 def fizz_buzz
-  int = 3 //15
+  your_num = 3 //15
   puts int
-  if int%3==0 && int%5==0
+  if your_num%3==0 && your_num%5==0
      puts "Fizz Buzz"
-  elsif int % 3 == 0
+  elsif your_num % 3 == 0
      puts "Fizz"
-  else int%5==0
+  else your_num%5==0
      puts "Buzz"
 end 
 end 
