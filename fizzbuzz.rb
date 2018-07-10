@@ -9,4 +9,5 @@ def fizz_buzz
      puts "Buzz"
 end 
 end 
+
 fizz_buzz
