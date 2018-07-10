@@ -1,6 +1,6 @@
 
 def fizz_buzz
-  int = gets.chomp
+  int = 15
   puts int
   if int%3==0 && int%5==0
      puts "Fizz Buzz"
